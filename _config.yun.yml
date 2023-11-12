@@ -1,0 +1,120 @@
+colors:
+  primary: '#29DEC5'
+  # bg: "#F5F5F5"
+  selection_bg: '#ffb9f9' # 选取文字时的背景色
+  # 标签云中标签的起始色和结束色
+  # tag_start_color:
+  # tag_end_color:
+
+banner:
+  enable: true
+  title: 初時雨の小窝
+  border: true
+  cloud:
+    enable: true
+    color: white
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+
+bg_image:
+  enable: true
+  url: /images/head.jpg
+  dark: /images/head-dark.jpg
+  # blur: 30px # 设置背景模糊程度
+  opacity: 0.5
+
+medium_zoom: true
+
+cursor:
+  enable: true
+
+avatar:
+  enable: true
+  url: /images/avatar.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+  status:
+    enable: true
+    emoji: 🤔
+    message: 
+
+say:
+  enable: true
+  api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
+  # https://developer.hitokoto.cn/sentence/
+  hitokoto:
+    enable: true
+    api: https://v1.hitokoto.cn
+
+social:
+  - name: GitHub
+    link: https://github.com/Hatsushigure
+    icon: ri:github-line
+    color: '#181717'
+  - name: E-Mail
+    link: mailto:Hatsushigure_c@163.com
+    icon: ri:mail-line
+    color: '#8E71C1'
+  - name: 网易云音乐
+    link: https://music.163.com/#/user/home?id=2133386719
+    icon: ri:netease-cloud-music-line
+    color: '#C10D0C'
+  - name: 知乎
+    link: https://zhihu.com/people/64-44-42-71-94
+    icon: ri:zhihu-line
+    color: '#0084FF'
+  - name: 哔哩哔哩动画
+    link: https://space.bilibili.com/520580199
+    icon: ri:bilibili-line
+    color: '#FF8EB3'
+  - name: Twitter
+    link: https://twitter.com/Hatsushigure_c
+    icon: ri:twitter-line
+    color: '#1da1f2'
+  - name: Telegram
+    link: https://t.me/Hatsushigure
+    icon: ri:telegram-line
+    color: '#0088CC'
+
+post_card:
+  opacity: 0.6
+
+codeblock:
+  copy_btn: true
+
+wordcloud:
+  enable: true
+
+engine_search:
+  enable: true
+  # href: 'https://www.google.com/search?q=site:'
+  # href: "https://www.baidu.com/s?wd=site:"
+  href: "https://www.bing.com/search?q=site:"
+  domain: hatsushigure.github.io
+
+wordcount:
+  enable: true
+  count: true
+  time: true
+
+footer:
+  since: 2022
+
+reward:
+  enable: true
+  icon: ri:hand-coin-line
+  comment: I'm so cute. Please give me money.
+  # url: https://github.com/YunYouJun/yunyoujun.github.io/issues/96
+  methods:
+    - name: 支付宝
+      path: images/alipay.jfif
+      color: '#00A3EE'
+      icon: ri:alipay-line
+      # link: https://xxxx
+    - name: 微信支付
+      path: images/wechatpay.jfif
+      color: '#2DC100'
+      icon: ri:wechat-pay-line
+
