@@ -31,7 +31,7 @@ cursor:
 
 avatar:
   enable: true
-  url: /images/avatar.jpg
+  url: https://pic.imgdb.cn/item/655f18f6c458853aef548aff.jpg
   rounded: true
   opacity: 1
   mickey_mouse: false
