@@ -5,9 +5,9 @@ email: Hatsushigure_c@163.com
 readmore: true
 hideTime: false
 date: 2024-01-13 23:38:32
-tags:
+tags: ["C plus plus", "C", "冷知识"]
 description:
-categories:
+categories: 编程
 ---
 
 好久不见啊，时隔将近三个月，~~某人终于想起来她还有个博客了~~。这是 2024 年的第一篇技术类文章（~~当然希望不是最后一篇~~）。这里简单聊一聊 `const` 关键字在 C 语言和 C++ 中的相同和不同，也算是给以后的自己填坑了。
